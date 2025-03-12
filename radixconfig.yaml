@@ -1,0 +1,15 @@
+apiVersion: radix.equinor.com/v1
+kind: RadixApplication
+metadata:
+  name: what-prompt
+spec:
+  environments:
+  - name: app
+    build:
+      from: main
+  components:
+  - name: web
+    ports: 
+    - name: http
+      port: 3000
+    publicPort: http
