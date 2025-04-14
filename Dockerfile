@@ -1,6 +1,9 @@
 # Use an official Node runtime as a parent image
 FROM node:22
 
+# Radix needs a user
+USER 1000
+
 # Set the working directory
 WORKDIR /usr/src/app
 
@@ -18,5 +21,3 @@ EXPOSE 3000
 
 # Command to run the application
 CMD [ "npm", "start" ]
-
-USER 1000
