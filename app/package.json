@@ -10,8 +10,8 @@
   "author": "Matt Hall",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.21.2",
-    "body-parser": "^1.19.0",
+    "express": "^4.22.1",
+    "body-parser": "^1.20.4",
     "dotenv": "^10.0.0",
     "node-fetch": "^2.6.7"
   }
